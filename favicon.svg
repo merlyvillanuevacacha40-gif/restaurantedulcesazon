@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#EC4899"/>
+  <circle cx="32" cy="32" r="25" fill="#FFF1F6"/>
+  <ellipse cx="32" cy="30" rx="16" ry="17" fill="#7C3F1D"/>
+  <circle cx="32" cy="30" r="11" fill="#FFE3D3"/>
+  <g fill="#FFFFFF" stroke="#5B2C1A" stroke-width="1.8" stroke-linejoin="round"><path d="M19 14c-3-1-5 2-4 4-2 1-2 4 0 5v3h34v-3c2-1 2-4 0-5 1-2-1-5-4-4-1-3-5-3-6-1-1-2-3-2-4-1-2-1-6 0-7 2z"/></g>
+  <circle cx="28" cy="31" r="2.2" fill="#3B1D12"/><path d="M35 31c1-1 2-1 3 0" stroke="#3B1D12" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <circle cx="24" cy="35" r="2" fill="#FDA4AF"/><circle cx="40" cy="35" r="2" fill="#FDA4AF"/>
+  <path d="M29 36c1 3 5 3 6 0" fill="#E11D48"/>
+  <text x="32" y="54" text-anchor="middle" font-family="Georgia, serif" font-weight="900" font-size="13" fill="#5B2C1A">DS</text>
+</svg>

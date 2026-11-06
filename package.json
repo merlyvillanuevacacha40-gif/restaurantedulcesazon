@@ -1,0 +1,16 @@
+{
+  "name": "dulce-sazon-restaurante",
+  "version": "1.0.0",
+  "description": "Dulce Sazón Restaurante · ¡Comida con amor! · Recuay, Ancash, Perú · Hecho con amor por Merly Villanueva Cacha",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
