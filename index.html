@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dulce Sazón Restaurante · ¡Comida con amor!</title>
+  <meta name="description" content="Dulce Sazón Restaurante en Recuay, Ancash, Perú: hamburguesas, papas fritas, postres y bebidas hechos con amor. WhatsApp 910 818 753 · merlyvillanuevacacha40@gmail.com. Reserva tu mesa online." />
+  <meta name="theme-color" content="#EC4899" />
+  <!-- Pestaña del navegador (favicon): tu logo en versión optimizada (favicon.png 128px, generado desde logo-restaurant.png) -->
+  <link rel="icon" type="image/png" sizes="128x128" href="favicon.png" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta property="og:image" content="logo-restaurant.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Datos estructurados para Google: restaurante realista -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Restaurant","name":"Dulce Sazón Restaurante","servesCuisine":["Hamburguesas","Peruana","Postres"],"priceRange":"S/","telephone":"+51 910 818 753","email":"merlyvillanuevacacha40@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Recuay","addressRegion":"Ancash","addressCountry":"PE"},"openingHours":["Tu-Fr 12:00-22:00","Sa-Su 12:00-22:00"],"founder":{"@type":"Person","name":"Merly Villanueva Cacha"}}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div class="topbar" role="complementary" aria-label="Información rápida">
+    <div class="container topbar__inner">
+      <span>📍 Recuay, Ancash, Perú</span>
+      <span>🕒 Mar a Dom · 12:00–22:00</span>
+      <a href="tel:+51910818753">📱 910 818 753</a>
+      <a href="https://wa.me/51910818753" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Dulce Sazón Restaurante, ir al inicio">
+        <!-- Tu logo en el header y en la barra de navegación. Usa logo-restaurant.png (tu imagen original) y si no existe, cae a logo.svg -->
+        <img class="brand__logo" src="logo-restaurant.png" onerror="this.onerror=null;this.src='logo.svg'" alt="Logo Dulce Sazón Restaurante" width="84" height="84" />
+        <span class="brand__text">
+          <strong>Dulce Sazón</strong>
+          <small>Restaurante · ¡Comida con amor!</small>
+        </span>
+      </a>
+
+      <div class="header-tools">
+        <div class="text-size" role="group" aria-label="Tamaño del texto">
+          <button type="button" id="fontDown" aria-label="Reducir tamaño del texto">A-</button>
+          <button type="button" id="fontUp" aria-label="Aumentar tamaño del texto">A+</button>
+        </div>
+        <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Abrir menú de navegación">
+          <span aria-hidden="true">☰</span>
+        </button>
+      </div>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Navegación principal" data-open="false">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#carta">Carta</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#reservas">Reservas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a class="btn btn--primary nav-cta" href="#reservas">Reservar mesa</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-labelledby="heroTitle">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">¡Comida con amor! ♥</p>
+          <h1 id="heroTitle">Dulce Sazón, sabor que se siente en cada bocado</h1>
+          <p class="lead">Hamburguesas jugosas, papas doraditas, postres dulces y bebidas frescas, preparados en casa con ingredientes frescos y mucho cariño. Un lugar familiar, alegre y para todas y todos.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#carta">Ver la carta 🍔</a>
+            <a class="btn btn--ghost" href="#reservas">Hacer una reserva</a>
+          </div>
+          <p class="stars" aria-label="Calificación 4,9 de 5 estrellas">★★★★★ <span>4,9 · 850 reseñas</span></p>
+          <ul class="hero__chips" aria-label="Datos del restaurante">
+            <li>★ 4,9 · 850 reseñas</li>
+            <li>🕒 Mar a Dom · 12:00–22:00</li>
+            <li>♿ Acceso familiar y universal</li>
+          </ul>
+        </div>
+        <figure class="hero__figure">
+          <img class="hero__logo" src="logo-restaurant.png" onerror="this.onerror=null;this.src='logo.svg'" alt="Logo de Dulce Sazón Restaurante: chef con gorro y moño rosa, hamburguesa y papas fritas, con el lema ¡Comida con amor!" />
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1100&q=80" alt="Hamburguesa artesanal con queso, lechuga y tomate en pan brillante" loading="eager" />
+          <figcaption>Nuestra hamburguesa Dulce Sazón, la favorita de la casa</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA / INCLUSIÓN -->
+    <section class="section" id="experiencia" aria-labelledby="experienceTitle">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Nuestra experiencia</p>
+          <h2 id="experienceTitle">Buena comida, para todas y todos</h2>
+          <p>Diseñamos cada detalle para que comer fuera sea cómodo, alegre y seguro, sin importar tus necesidades o preferencias.</p>
+        </div>
+        <ul class="feature-grid">
+          <li class="feature-card"><span class="feature-card__icon" aria-hidden="true">❤️</span><h3>Hecho con amor</h3><p>Recetas caseras, porciones generosas y detalle en cada plato.</p></li>
+          <li class="feature-card"><span class="feature-card__icon" aria-hidden="true">🥗</span><h3>Opciones para todos</h3><p>Platos vegetarianos, sin gluten y sin picante, con alérgenos indicados en la carta.</p></li>
+          <li class="feature-card"><span class="feature-card__icon" aria-hidden="true">♿</span><h3>Espacio accesible</h3><p>Entrada sin escalones, mesas adaptables, sillas infantiles y personal amable.</p></li>
+          <li class="feature-card"><span class="feature-card__icon" aria-hidden="true">🔠</span><h3>Carta legible</h3><p>Letra grande, alto contraste, botones grandes y versión compatible con lector de pantalla. Usa A+ para agrandar el texto.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section section--alt" id="nosotros" aria-labelledby="aboutTitle">
+      <div class="container about__grid">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1000&q=80" alt="Interior cálido y familiar del restaurante con mesas y luces colgantes" loading="lazy" />
+        </figure>
+        <div>
+          <p class="eyebrow">Nosotros</p>
+          <h2 id="aboutTitle">Una cocina familiar, dulce y cercana</h2>
+          <p>Nacimos con una idea sencilla: cocinar como en casa, pero con el toque especial de Dulce Sazón. Detrás de cada hamburguesa y cada postre hay un equipo que pone amor, ingredientes frescos y una sonrisa.</p>
+          <blockquote class="chef-sign">“Cada plato lleva un pedacito de mi corazón. Gracias por venir a mi casa, Dulce Sazón.”<footer>— <strong>Merly Villanueva Cacha</strong> · Chef &amp; Fundadora</footer></blockquote>
+          <dl class="stats">
+            <div><dt><span data-count="25">0</span>+</dt><dd>Platos en la carta</dd></div>
+            <div><dt><span data-count="100">0</span>%</dt><dd>Hecho en casa</dd></div>
+            <div><dt><span data-count="9">0</span> años</dt><dd>Cocinando para ti</dd></div>
+          </dl>
+          <a class="btn btn--ghost" href="#reservas">Ven a conocernos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARTA -->
+    <section class="section" id="carta" aria-labelledby="menuTitle">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">La carta</p>
+          <h2 id="menuTitle">Explora, filtra y arma tu pedido</h2>
+          <p>Busca por nombre, filtra por categoría y agrega tus favoritos. El total se calcula al instante.</p>
+        </div>
+
+        <div class="menu-controls">
+          <div class="search-box">
+            <label for="menuSearch">Buscar en la carta</label>
+            <input id="menuSearch" type="search" placeholder="Ej. hamburguesa, papas, chocolate…" autocomplete="off" />
+          </div>
+          <div class="filter-group" role="group" aria-label="Filtrar por categoría">
+            <button class="filter-btn is-active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+            <button class="filter-btn" type="button" data-filter="hamburguesas" aria-pressed="false">Hamburguesas</button>
+            <button class="filter-btn" type="button" data-filter="papas" aria-pressed="false">Papas &amp; Snacks</button>
+            <button class="filter-btn" type="button" data-filter="postres" aria-pressed="false">Postres</button>
+            <button class="filter-btn" type="button" data-filter="bebidas" aria-pressed="false">Bebidas</button>
+          </div>
+        </div>
+
+        <p class="menu-count" id="menuCount" role="status" aria-live="polite"></p>
+        <div class="menu-grid" id="menuGrid"></div>
+        <p class="empty-state" id="menuEmpty" hidden>No encontramos platos con ese criterio. Prueba con otra búsqueda o categoría.</p>
+        <noscript><p class="empty-state">Activa JavaScript para ver la carta interactiva o llámanos por WhatsApp al <a href="tel:+51910818753">910 818 753</a>.</p></noscript>
+
+        <!-- PEDIDO -->
+        <aside class="order-panel" aria-labelledby="orderTitle">
+          <div>
+            <h3 id="orderTitle">Tu pedido 🧾</h3>
+            <p id="orderEmpty">Todavía no agregaste platos. Usa el botón «Agregar» en cada plato.</p>
+            <ul class="order-list" id="orderList"></ul>
+          </div>
+          <div class="order-summary">
+            <p>Total: <strong id="orderTotal">$0.00</strong></p>
+            <div class="order-actions">
+              <button class="btn btn--ghost" id="clearOrder" type="button">Vaciar pedido</button>
+              <a class="btn btn--primary" href="#reservas">Confirmar con reserva</a>
+            </div>
+            <p class="order-note">El pago se realiza en el restaurante. Indica alérgenos y preferencias al reservar.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section section--alt" id="galeria" aria-labelledby="galleryTitle">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Galería</p>
+          <h2 id="galleryTitle">Momentos dulces de la casa</h2>
+        </div>
+        <ul class="gallery-grid">
+          <li><figure><img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80" alt="Hamburguesa con papas fritas servida en bandeja" loading="lazy" /><figcaption>Hamburguesa + papas</figcaption></figure></li>
+          <li><figure><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80" alt="Papas fritas doradas en recipiente rojo" loading="lazy" /><figcaption>Papas doraditas</figcaption></figure></li>
+          <li><figure><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80" alt="Sundae de helado de vainilla con salsa de chocolate" loading="lazy" /><figcaption>Sundae especial</figcaption></figure></li>
+          <li><figure><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80" alt="Postre de chocolate con frutos en copa" loading="lazy" /><figcaption>Postre de chocolate</figcaption></figure></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="section" id="testimonios" aria-labelledby="testimonialsTitle">
+      <div class="container testimonial-wrap">
+        <div class="section-head">
+          <p class="eyebrow">Testimonios</p>
+          <h2 id="testimonialsTitle">Lo que dice nuestra gente</h2>
+        </div>
+        <div class="testimonial-card" aria-live="polite">
+          <p class="stars" aria-hidden="true">★★★★★</p>
+          <blockquote id="testimonialText">“La hamburguesa Dulce Sazón es increíble y el personal es un amor. Volveremos seguro.”</blockquote>
+          <p id="testimonialAuthor"><strong>María G.</strong> · Clienta frecuente</p>
+        </div>
+        <div class="testimonial-controls">
+          <button class="btn btn--ghost" id="prevTestimonial" type="button" aria-label="Testimonio anterior">← Anterior</button>
+          <span id="testimonialPosition" aria-live="polite">1 de 3</span>
+          <button class="btn btn--ghost" id="nextTestimonial" type="button" aria-label="Testimonio siguiente">Siguiente →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVAS -->
+    <section class="section section--alt" id="reservas" aria-labelledby="reservationTitle">
+      <div class="container reservation__grid">
+        <div>
+          <p class="eyebrow">Reservas</p>
+          <h2 id="reservationTitle">Reserva tu mesa en 1 minuto</h2>
+          <p>Completa el formulario y te confirmaremos por correo. Si necesitas ayuda, llámanos o escríbenos por WhatsApp al <a href="tel:+51910818753">910 818 753</a> · <a href="https://wa.me/51910818753?text=Hola%20Dulce%20Saz%C3%B3n%2C%20quiero%20reservar%20una%20mesa" target="_blank" rel="noopener">WhatsApp</a>.</p>
+          <h3>Horario</h3>
+          <p>Martes a domingo · 12:00–16:00 y 19:00–22:00<br />Lunes cerrado</p>
+          <h3>Accesibilidad</h3>
+          <p>Entrada sin escalones, menú en letra grande, mesas cerca de la puerta y sillas infantiles. Avísanos si necesitas otra cosa.</p>
+        </div>
+
+        <form class="reservation-form" id="reservationForm" novalidate>
+          <div class="field">
+            <label for="name">Nombre completo *</label>
+            <input id="name" name="name" type="text" required autocomplete="name" aria-describedby="nameError" />
+            <p class="field-error" id="nameError" hidden>Escribe tu nombre.</p>
+          </div>
+          <div class="field">
+            <label for="email">Correo electrónico *</label>
+            <input id="email" name="email" type="email" required autocomplete="email" aria-describedby="emailError" />
+            <p class="field-error" id="emailError" hidden>Escribe un correo válido, por ejemplo nombre@correo.com.</p>
+          </div>
+          <div class="field">
+            <label for="phone">Teléfono *</label>
+            <input id="phone" name="phone" type="tel" required autocomplete="tel" aria-describedby="phoneError" />
+            <p class="field-error" id="phoneError" hidden>Escribe un teléfono válido (mínimo 7 dígitos).</p>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="date">Fecha *</label>
+              <input id="date" name="date" type="date" required aria-describedby="dateError" />
+              <p class="field-error" id="dateError" hidden>Elige una fecha a partir de hoy.</p>
+            </div>
+            <div class="field">
+              <label for="time">Hora *</label>
+              <select id="time" name="time" required aria-describedby="timeError">
+                <option value="">Selecciona…</option>
+                <option>12:30</option><option>13:30</option><option>14:30</option>
+                <option>19:30</option><option>20:30</option><option>21:30</option>
+              </select>
+              <p class="field-error" id="timeError" hidden>Selecciona una hora.</p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="guests">Número de personas *</label>
+            <select id="guests" name="guests" required aria-describedby="guestsError">
+              <option value="">Selecciona…</option>
+              <option>1</option><option>2</option><option>3</option><option>4</option>
+              <option>5</option><option>6</option><option>7</option><option>8+</option>
+            </select>
+            <p class="field-error" id="guestsError" hidden>Selecciona el número de personas.</p>
+          </div>
+          <div class="field">
+            <label for="notes">Peticiones especiales <span>(opcional)</span></label>
+            <textarea id="notes" name="notes" rows="3" placeholder="Alergias, silla de ruedas, cumpleaños, mesa tranquila…"></textarea>
+          </div>
+          <button class="btn btn--primary btn--block" type="submit">Confirmar reserva ♥</button>
+          <p class="form-success" id="formSuccess" role="status" aria-live="polite" hidden></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section" id="contacto" aria-labelledby="contactTitle">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contactTitle">Encuéntranos</h2>
+        </div>
+        <ul class="contact-grid">
+          <li><h3>📍 Dirección</h3><p>Recuay, Ancash, Perú<br /><a href="https://www.google.com/maps/search/?api=1&amp;query=Recuay%2C+Ancash%2C+Per%C3%BA" target="_blank" rel="noopener">Ver en Google Maps ↗</a></p></li>
+          <li><h3>💬 WhatsApp / Teléfono</h3><p><a href="tel:+51910818753">910 818 753</a><br /><a class="btn btn--primary btn--whatsapp" href="https://wa.me/51910818753?text=Hola%20Dulce%20Saz%C3%B3n%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener">Escríbenos por WhatsApp</a></p></li>
+          <li><h3>✉️ Correo</h3><p><a href="mailto:merlyvillanuevacacha40@gmail.com">merlyvillanuevacacha40@gmail.com</a></p></li>
+        </ul>
+        <div class="contact-extra">
+          <div class="hours-card">
+            <h3>🕒 Horario de atención</h3>
+            <table class="hours-table"><tbody>
+              <tr><th scope="row">Lunes</th><td>Cerrado</td></tr>
+              <tr><th scope="row">Martes a Viernes</th><td>12:00 – 22:00</td></tr>
+              <tr><th scope="row">Sábado y Domingo</th><td>12:00 – 22:00</td></tr>
+            </tbody></table>
+          </div>
+          <div class="pay-card">
+            <h3>💳 Formas de pago</h3>
+            <ul class="pay-badges"><li>💵 Efectivo</li><li>📱 Yape</li><li>📱 Plin</li><li>💳 Tarjeta</li></ul>
+            <h3>📲 Síguenos</h3>
+            <p class="social"><a href="https://wa.me/51910818753" target="_blank" rel="noopener">WhatsApp</a> · <a href="#" aria-label="Facebook de Dulce Sazón">Facebook</a> · <a href="#" aria-label="Instagram de Dulce Sazón">Instagram</a></p>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <h3>🗺️ Encuéntranos en Recuay</h3>
+          <iframe class="map-frame" title="Mapa de Recuay, Ancash, Perú - Dulce Sazón Restaurante" src="https://maps.google.com/maps?q=Recuay%2C%20Ancash%2C%20Per%C3%BA&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="100%" height="360" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Recuay%2C+Ancash%2C+Per%C3%BA" target="_blank" rel="noopener">Cómo llegar con Google Maps ↗</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><img class="footer__logo" src="logo-restaurant.png" onerror="this.onerror=null;this.src='logo.svg'" alt="Logo Dulce Sazón Restaurante" width="48" height="48" /> <strong>Dulce Sazón Restaurante</strong> · ¡Comida con amor!</p>
+      <p>📱 <a href="tel:+51910818753">910 818 753</a> · <a href="https://wa.me/51910818753" target="_blank" rel="noopener">WhatsApp</a> · ✉️ <a href="mailto:merlyvillanuevacacha40@gmail.com">merlyvillanuevacacha40@gmail.com</a> · 📍 Recuay, Ancash, Perú</p>
+      <nav aria-label="Enlaces del pie de página">
+        <a href="#carta">Carta</a><a href="#reservas">Reservas</a><a href="#contacto">Contacto</a><a href="#inicio">Volver arriba</a>
+      </nav>
+      <p>© <span id="year">2026</span> Dulce Sazón Restaurante · Hecho con amor por <strong>Merly Villanueva Cacha</strong> ♥</p>
+      <p class="footer-sign">Gracias por visitarnos · Recuay, Ancash, Perú</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/51910818753?text=Hola%20Dulce%20Saz%C3%B3n%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp al 910 818 753">💬 WhatsApp</a>
+  <button class="back-top" id="backTop" type="button" aria-label="Volver arriba" hidden>↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <dialog class="dish-dialog" id="dishDialog" aria-labelledby="dialogTitle">
+    <form method="dialog"><button class="dialog-close" type="submit" aria-label="Cerrar detalle del plato">✕</button></form>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
